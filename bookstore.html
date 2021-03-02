@@ -1,90 +1,65 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-        <title>Bootstrap sample</title>
+        <title>Book Store</title>
         <meta charset="UTF-8", name="viewport", content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <style>
-                
-        </style>
+	<style>
+		.jumbotron {
+		 background-image:url('http://172.16.34.27/~images/image5.jpeg');  
+                 background-size: 100% 100%;
+		 position:relative;
+		 height:200px;
+                 background-repeat: no-repeat;}
+	</style>
 </head>
 <body>
-     <nav class="navbar navbar-inverse" style="height:60px;">
-  	   <div class="container-fluid">
-    		  <div class="navbar-header">
-      		<a class="navbar-brand" href="#">B00KWORM.com</a>
-    		  </div>
-    		  <ul class="nav navbar-nav">
-      		   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Books<span class="caret"></span></a>
-        		 <ul class="dropdown-menu">
-	  		        <li><a href="#">Fiction</a></li>
-         		    <li><a href="#">Autobiography</a></li>
-          		  <li><a href="#">Computers</a></li>
-			          <li><a href="#">History & Humanities</a></li>
-			          <li><a href="#">Business & Economics</a></li>
-        		</ul>
-      		  </li>    
-		        <li class="active"><a href="#">New Arrivals</a></li>
-      		  <li><a href="#">Bestsellers</a></li>
-		        <li><a href="#">Featured Authors</a></li>
-          </ul>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+   	<div class="navbar-header">
+      	   <a class="navbar-brand" href="#">B00KWORM.com</a>
+    	</div>
+    	   <ul class="nav navbar-nav">
+      		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Books<span class="caret"></span></a>
+        	    <ul class="dropdown-menu">
+	  		<li><a href="#">C++</a></li>
+         		<li><a href="#">Python</a></li>
+          		<li><a href="#">Web Technologies</a></li>
+			<li><a href="#">Shell Scripting</a></li>
+			<li><a href="#">Database Management</a></li>
+        	    </ul>
+      		 </li>    
+		 <li class="active"><a href="#">New Arrivals</a></li>
+      		 <li><a href="#">Bestsellers</a></li>
+		 <li><a href="#">Research Papers</a></li>
+            </ul>
 	        <ul class="nav navbar-nav navbar-right">
       		    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       		    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    	    </ul>
-          <form class="navbar-form navbar-right">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search">
-            <div class="input-group-btn">
-              <button class="btn btn-default" type="submit">
-              <i class="glyphicon glyphicon-search"></i>
-              </button>
-            </div>
-            </div>
-          </form>
-  </div>
+    	    	</ul>
+	</div>
 </nav>
 <div class="container">
-     <div class="jumbotron text-center">
-         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
+	<div class="jumbotron"></div>
+</div>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="slide1.jpg" alt="slide1">
-    </div>
-
-    <div class="item">
-      <img src="slide2.jpg" alt="slide2">
-    </div>
-
-    <div class="item">
-      <img src="slide3.jpg" alt="slide3">
-    </div>
-  </div>
-        </div>
-        </div>
         <div class="container">
         <div class="row">
 		<div class="col-md-3">
 			<span class="label label-danger">NEW</span>
-			<h4>Luckey One</h4>
+			<h4>Black friday sale!</h4>
 			<p>book back in stock! Go grab one quick</p>
 			<span class="label label-danger">NEW</span>
-			<h4>Luckey One</h4>
+			<h4>New Arrivals!</h4>
 			<p>book back in stock! Go grab one quick</p>  
 		</div>
                 <div class="col-md-3">
-                <img src="book1.jpg" class=img-rounded alt="IMAGE1">
-                <h2>The Seeker</h2>
+                <img src="http://172.16.34.27/~images/books/book1.jpg" class=img-rounded alt="IMAGE1">
+		<h2>Computer Network</h2>
+		<a href="#demo" class="btn btn-primary" data-toggle="collapse">View Details</a><br>
+		<div id="demo" class="collapse">
                 <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
                 He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
                 <ul type="square" >
@@ -92,39 +67,52 @@
                         <li>Publications:Penguine Group</li>
                         <li>Price: $300</li>
                 </ul>
-		<button type="button" class="btn btn-primary">Primary</button>
+		</div><br>
+		<button type="button" class="btn btn-primary">Buy Now</button>
                 </div>
                 <div class="col-md-3">
-                <img src="book1.jpg" class=img-rounded alt="IMAGE2">
-                <h2>The Luckey One</h2>
+                <img src="http://172.16.34.27/~images/books/book2.jpg" class=img-rounded alt="IMAGE2">
+                <h2>Computers</h2>
                 <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
                 He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
                  <ul type="square" >
                         <li>Author: John Green</li>
                         <li>Publications:Penguine Group</li>
-                        <li>Price: $300</li>
+                        <li>Price: $400</li>
                 </ul>
-		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-primary">Buy Now</button>
                 </div>
                 <div class="col-md-3">
-                <img src="book1.jpg" class=img-rounded alt="IMAGE2">
-                <h2>Fault in our stars</h2>
+                <img src="http://172.16.34.27/~images/books/book1.jpg" class=img-rounded alt="IMAGE2">
+                <h2>Coding with C++</h2>
                 <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
                 He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
                 <ul type="square" >
                         <li>Author: John Green</li>
                         <li>Publications:Penguine Group</li>
-                        <li>Price: $300</li>
+                        <li>Price: $120</li>
                 </ul>
-		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-primary">Buy Now</button>
                 </div></div></div>
 		<br><br>
 		<div class="container">
 		<div class="rows">
 		<div class="col-md-3"></div>
 		<div class="col-md-3">
-                <img src="book1.jpg" class=img-rounded alt="IMAGE2">
-                <h2>Fault in our stars</h2>
+                <img src="http://172.16.34.27/~images/books/book1.jpg" class=img-rounded alt="IMAGE2">
+                <h2>Computer Applications</h2>
+                <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
+                He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
+                <ul type="square" >
+                        <li>Author: John Green</li>
+                        <li>Publications:Penguine Group</li>
+                        <li>Price: $1200</li>
+                </ul>
+		<button type="button" class="btn btn-primary">Buy Now</button>
+                </div>
+		<div class="col-md-3">
+                <img src="http://172.16.34.27/~images/books/book1.jpg" class=img-rounded alt="IMAGE2">
+                <h2>Computer Science GK</h2>
                 <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
                 He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
                 <ul type="square" >
@@ -135,40 +123,34 @@
 		<button type="button" class="btn btn-primary">Buy Now</button>
                 </div>
 		<div class="col-md-3">
-                <img src="book2.jpg" class=img-rounded alt="IMAGE2">
-                <h2>Fault in our stars</h2>
+                <img src="http://172.16.34.27/~images/books/book1.jpg" class=img-rounded alt="IMAGE2">
+                <h2>Computer Architecture</h2>
                 <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
                 He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
                 <ul type="square" >
                         <li>Author: John Green</li>
                         <li>Publications:Penguine Group</li>
-                        <li>Price: $300</li>
+                        <li>Price: $250</li>
                 </ul>
-		<button type="button" class="btn btn-primary">Primary</button>
-                </div>
-		<div class="col-md-3">
-                <img src="book1.jpg" class=img-rounded alt="IMAGE2">
-                <h2>Fault in our stars</h2>
-                <p>John Green is a bestselling author for New York Times with books like Looking For Alaska, Paper Towns and The Fault in our$
-                He has been awarded the Printz Award as well as the Edgar Award. His books have been published in over 12 languages.</p>
-                <ul type="square" >
-                        <li>Author: John Green</li>
-                        <li>Publications:Penguine Group</li>
-                        <li>Price: $300</li>
-                </ul>
-		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-primary">Buy Now</button>
                 </div>
 		
         </div>
-        </div>
-<footer class="page-footer font-small blue pt-4">
+        </div><br><br>
+<div class="container">
+<footer class="page-footer font-small">
 	<div class="rows">
-	<div class="col-md-4">
-		<h1>FOOTER</h1>
-		<p> content</p>
+	<div class="col-md-6">
+		<h4>Address</h4>
+		<p>Mysore Rd, RV Vidyaniketan, Post, Bengaluru, Karnataka 560059
+		Book Store 
+		R V Vidyanikethan Post
+		Mysuru Road Bengaluru - 560 059<br>
+		Ph : 91 - 080-6717 8000 / 8021 / 8020<br>
+		Fax: 91 - 080-6717 8011<br>
+		Email : bookworm@gmail.com</p> 
 	</div></div>
+</div>
 </footer>
-
-
 </body>
 </html>
