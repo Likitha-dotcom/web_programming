@@ -1,0 +1,44 @@
+student1{
+        display:block;
+        border: 1px solid silver;
+        margin:10px;
+        padding:10px;
+        background-color:#00bfff}
+student2{
+        display:block;
+        border: 1px solid silver;
+        margin:10px;
+        padding:10px;
+        background-color:#ff5050}
+student3{
+        display:block;
+        border: 1px solid silver;
+        margin:10px;
+        padding:10px;
+        background-color:#7f66cc}
+heading{
+        display:block;
+        font-weight:bold;
+        text-align:center;
+        font-size:30px;
+        background-color:#ff8000;
+        color:#fff;
+        text-transform:uppercase;}
+
+name,USN,college,branch,yoj,email{
+        display:block;
+        text-align:center;
+        color:#000;}
+name{   
+        color:#fff;
+        text-decoration:underline;
+        font-weight:bold;
+        font-size:20px;
+        text-transform:uppercase;}
+USN{
+        text-transform:uppercase;
+        font-weight:bold;}
+
+college{ 
+        text-transform:capitalize;
+        font-style:italic;}
