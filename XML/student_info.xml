@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="stud_style.css"?>
+<students>
+        <heading> Student information </heading>
+        <student1>
+                <name>Name: Likitha s</name>
+                <USN>USN: rvce20mca060</USN>
+                <college>College: RV college of engineering</college>
+                <branch>Branch: MCA</branch>
+                <yoj> Year: 2020</yoj>
+                <email>Email: likitha@gmail.com</email>
+        </student1>
+        <student2>
+                <name>Name: tanmay s</name>
+                <USN>USN: pes19mca059</USN>
+                <college>College: PESIT</college>
+                <branch>Branch: MCA</branch>
+                <yoj> Year: 2019</yoj>
+                <email>Email: tanmay@gmail.com</email>
+        </student2>
+        <student3>
+                <name>Name: Aishwarya kp</name>
+                <USN>USN: mcc18mca007</USN>
+                <college>College: mount carmel college</college>
+                <branch>Branch: MCA</branch>
+                <yoj> Year: 2018</yoj>
+                <email>Email: aishwarya@gmail.com</email>
+        </student3>
+</students>
